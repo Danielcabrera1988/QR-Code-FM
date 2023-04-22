@@ -1,0 +1,50 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --font-outfit: "Outfit", sans-serif;
+  }
+
+html, body {
+  background-color: var(--Light-gray);
+  font-family: var(--font-outfit);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container-main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.container img {
+  max-width: 280px;
+  border-radius: 10px;
+  margin: 8px auto 8px auto;
+}
+h4 {
+  font-weight: 700;
+  padding: 0 10px 0 10px;
+}
+p {
+  font-weight: 400;
+  padding: 0 10px 0 10px;
+  color: grey;
+}
+.footer {
+text-align: center;
+}
