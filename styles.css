@@ -37,11 +37,9 @@ html, body {
   margin: 8px auto 8px auto;
 }
 h4 {
-  font-weight: 700;
   padding: 0 10px 0 10px;
 }
 p {
-  font-weight: 400;
   padding: 0 10px 0 10px;
   color: grey;
 }
