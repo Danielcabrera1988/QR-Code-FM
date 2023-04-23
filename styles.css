@@ -11,6 +11,7 @@ html, body {
   font-family: var(--font-outfit);
   margin: 0;
   padding: 0;
+  height: 100%;
   display: grid;
   justify-content: center;
   align-items: center;
